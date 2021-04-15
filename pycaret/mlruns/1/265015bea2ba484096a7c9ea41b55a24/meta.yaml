@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Github/Python/pycaret/mlruns/1/265015bea2ba484096a7c9ea41b55a24/artifacts
+end_time: 1616255400174
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+name: ''
+run_id: 265015bea2ba484096a7c9ea41b55a24
+run_uuid: 265015bea2ba484096a7c9ea41b55a24
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1616255399512
+status: 3
+tags: []
+user_id: czwea

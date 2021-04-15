@@ -1,0 +1,32 @@
+digraph Tree {
+node [shape=box, style="filled", color="black"] ;
+0 [label="age <= 64.5\ngini = 0.035\nsamples = 32550\nvalue = [31963, 587]", fillcolor="#e5833d"] ;
+1 [label="age <= 49.5\ngini = 0.014\nsamples = 26443\nvalue = [26254, 189]", fillcolor="#e5823a"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="age <= 33.5\ngini = 0.005\nsamples = 19131\nvalue = [19083, 48]", fillcolor="#e58139"] ;
+1 -> 2 ;
+3 [label="(...)", fillcolor="#C0C0C0"] ;
+2 -> 3 ;
+16 [label="(...)", fillcolor="#C0C0C0"] ;
+2 -> 16 ;
+47 [label="age <= 55.5\ngini = 0.038\nsamples = 7312\nvalue = [7171, 141]", fillcolor="#e6833d"] ;
+1 -> 47 ;
+48 [label="(...)", fillcolor="#C0C0C0"] ;
+47 -> 48 ;
+59 [label="(...)", fillcolor="#C0C0C0"] ;
+47 -> 59 ;
+76 [label="age <= 73.5\ngini = 0.122\nsamples = 6107\nvalue = [5709, 398]", fillcolor="#e78a47"] ;
+0 -> 76 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+77 [label="age <= 68.5\ngini = 0.089\nsamples = 2991\nvalue = [2852, 139]", fillcolor="#e68743"] ;
+76 -> 77 ;
+78 [label="(...)", fillcolor="#C0C0C0"] ;
+77 -> 78 ;
+85 [label="(...)", fillcolor="#C0C0C0"] ;
+77 -> 85 ;
+94 [label="age <= 78.5\ngini = 0.152\nsamples = 3116\nvalue = [2857, 259]", fillcolor="#e78c4b"] ;
+76 -> 94 ;
+95 [label="(...)", fillcolor="#C0C0C0"] ;
+94 -> 95 ;
+104 [label="(...)", fillcolor="#C0C0C0"] ;
+94 -> 104 ;
+}
